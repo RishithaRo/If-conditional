@@ -1,0 +1,6 @@
+num1=eval(input("Enter num1:"))
+num2=eval(input("Enter num2:"))
+if num1==num2:
+	print("Both are equal")
+if num1!=num2:
+	print("Both are not equal")
