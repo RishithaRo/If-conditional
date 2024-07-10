@@ -1,0 +1,8 @@
+pp=eval(input("Enter purchase price:"))
+sp=eval(input("Enter selling price:"))
+if sp>pp:
+	print("profit is:",sp-pp)
+if pp>sp:
+	print("Loss is:",pp-sp)
+if sp==pp:
+	print("No profit,No Loss")
