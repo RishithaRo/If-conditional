@@ -1,0 +1,11 @@
+price=eval(input("Enter price of the product:"))
+qty=eval(input("Enter quantity of product:"))
+bill=price*qty
+if bill>=1000:
+	dis=bill*15/100
+if bill<1000:
+	dis=bill*5/100
+net_bill=bill-dis
+print("The actual bill is:",bill)
+print("The discount is:",dis)
+print("The net bill is:",net_bill )
