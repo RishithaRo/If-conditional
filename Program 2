@@ -2,9 +2,9 @@ if 40!=20:
     print("One")
     print("Two")
 if 30>=40:
-	print("Three")
-	print("Four")
+    print("Three")
+    print("Four")
 if 60<30:
-	print("Five")
-	print("Six")
+    print("Five")
+    print("Six")
 print("Seven")
