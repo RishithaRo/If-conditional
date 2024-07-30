@@ -1,0 +1,9 @@
+#Write a python program to accept a number and print it is positive or negative
+num=int(input("Enter any number:"))
+if num>0:print("Positive number...")
+if num<0:print("Negative number...")
+'''____________OUTPUT____________
+Enter any number:7
+Positive number...
+
+[Program finished]'''
