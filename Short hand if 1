@@ -1,0 +1,9 @@
+#write a python program to accept a number and print it is zero or nonzero...
+num=int(input("Enter any number:"))
+if num==0:print("Zero...")
+if num!=0:print("Non zero...")
+'''____________OUTPUT____________
+Enter any number:7
+Non zero...
+
+[Program finished]'''
